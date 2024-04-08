@@ -10,7 +10,7 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      text: "Criar funcionalidade x no Sistema",
+      text: "Chegar às 08:00 Am",
       category: "Trabalho",
       isCompleted: false,
     },
