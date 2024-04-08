@@ -70,7 +70,7 @@ function App() {
   // retornando um as funcoes na pagina principal
   return (
     <div className="App">
-      <h1>Lista de Tarefas</h1>
+      <h1>Lista de tarefas</h1>
       <Search search={search} setSearch={setSearch} /> {/* component search mudar o state */}
       <Filter filter={filter} setFilter={setFilter} setSort={setSort} />
       <div className="todo-list">
